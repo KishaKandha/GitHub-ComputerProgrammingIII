@@ -7,30 +7,30 @@ public class JavaExamples
 	
 	public void setQuestionNo(int Qno)
 	{
-	
+	  this.questionNo=Qno;
 		
 	}
 	public void setCategory(String category)
 	{
-		
+		this.category=category;
 		
 	}
 	public void setText(String text)
 	{
-		
+		this.text=text;
 		
 	}
 	
 	public int getQuestionNo()
 	{
-	      return 0;
+	      return questionNo;
 	} 
 	public String getCategory()
 	{
-		return ;
+		return category;
 	}
 	public String getText()
 	{   
-	     return  ;   
+	    return text ; 
 	}
 }	
