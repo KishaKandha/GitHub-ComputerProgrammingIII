@@ -33,4 +33,24 @@ public class JavaExamples
 	{   
 	    return text ; 
 	}
+	
+	public void addQuestionNo(int QuestionNo)
+	{
+		 this.questionNo=QuestionNo;	
+		 
+	
+	}
+	public void removeQuestionNo()
+	{
+		 this.questionNo=0;	
+		 
+	
+	}
+	public void editQuestionNo(int QuestionNo)
+	{
+		 this.questionNo=QuestionNo;	
+		 
+	
+	}
+	
 }	
